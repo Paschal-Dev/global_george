@@ -64,12 +64,12 @@ export default function InvestmentPortfolio() {
             />
           </div>
 
-          <div className="relative block h-100 w-full overflow-hidden rounded-3xl md:h-140 md:w-164">
+          <div className="relative block h-[25rem] w-full overflow-hidden rounded-3xl md:h-[35rem] md:w-[41rem]">
             <Image
               src={Portfolio}
               alt=""
               fill
-              className="absolute inset-0 h-full rounded-3xl object-cover md:w-164"
+              className="absolute inset-0 h-full rounded-3xl object-cover md:w-[41rem]"
             />
           </div>
         </div>
