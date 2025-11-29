@@ -14,7 +14,9 @@ export default function Home() {
   }, []);
 
   return (
-    <section>
+    <section style={{
+      display: 'none',
+    }}>
       <HeroSection />
       <About />
       <Objectives />
